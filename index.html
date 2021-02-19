@@ -11,6 +11,7 @@
         <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+		<link href="assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
@@ -54,8 +55,12 @@
         <section class="page-section" id="services">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Nos Services</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading text-uppercase">
+						<header class="section-header">
+							<h2>Nos services</h2>
+						</header>
+					</h2>
+                    <h3 class="section-subheading text-muted">Voici les différents services que nous proposons</h3>
                 </div>
                 <div class="row text-center">
                     <div class="col-md-4">
@@ -90,7 +95,11 @@
         <section class="page-section bg-light" id="portfolio">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Nos réalisations</h2>
+                    <h2 class="section-heading text-uppercase">
+						<header class="section-header">
+							<h2>Nos réalisations</h2>
+						</header>
+					</h2>
                     <h3 class="section-subheading text-muted">Voici des illustrations de nos dernières réalisations</h3>
                 </div>
                 <div class="row">
@@ -185,79 +194,111 @@
         <!-- Clients-->
 		<section class="page-section" id="about">
 			 <div class="text-center">
-				<h2 class="section-heading text-uppercase">À propos</h2>
+				<h2 class="section-heading text-uppercase">
+					<header class="section-header">
+						<h2>À propos</h2>
+					</header>
+				</h2>
+				<h3 class="section-subheading text-muted">Chaloin Frères en chiffres</h3>
 			 </div>
 
-			<div class="text-center">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-4">
-							<div class="imgAbt">
-								<img width="220" height="220" src="assets/img/about/about.JPG" class="rounded-circle"/>
-							</div>
-						</div>
-						<div class="col-md-8">
-							<div class="jumbotron d-flex align-items-center">
-								<p>Créé en 2000, l'entreprise Chaloin Frères emploie XXX personnes. Elle intervient dans toute la région Auvergne-Rhône-Alpes.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			
-			<div class="text-center">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-4">
-							<div class="imgAbt">
-								<img width="220" height="220" src="https://www.mastock.fr/6332-home_default/traverse-en-chene.jpg" class="rounded-circle"/>
-							</div>
-						</div>
-						<div class="col-md-8">
-							<div class="jumbotron d-flex align-items-center">
-								<p>Le bois provient de tel endroit, avec...</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+			<!-- ======= Facts Section ======= -->
+			<section id="facts">
+			  <div class="container" data-aos="fade-up">
 
+				
+
+				<div class="row counters">
+				
+				<div class="col-lg-3 col-6 text-center">
+					<span data-toggle="counter-up">1994</span>
+					<p>Date de création</p>
+				  </div>
+				  
+				  <div class="col-lg-3 col-6 text-center">
+					<span data-toggle="counter-up">274</span>
+					<p>Clients</p>
+				  </div>
+
+				  <div class="col-lg-3 col-6 text-center">
+					<span data-toggle="counter-up">318</span>
+					<p>Projets</p>
+				  </div>
+
+				  <div class="col-lg-3 col-6 text-center">
+					<span data-toggle="counter-up">18</span>
+					<p>Employés</p>
+				  </div>
+
+				</div>
+
+				<div class="facts-img">
+				  <img src="assets/img/facts-img.png" alt="" class="img-fluid">
+				</div>
+
+			  </div>
+			</section><!-- End Facts Section -->
 		</section>
 
 		
         <!-- Contact-->
-		<section class="page-section" id="contact">
+<!-- ======= Contact Section ======= -->
+    <section class="page-section" id="contact">
+		<div class="text-center">
+			<h2 class="section-heading text-uppercase">Contact</h2>
+			<h3 class="section-subheading text-muted">Voici les différents moyens de nous contacter</h3>
+		</div>
 		
-		   <div class="text-center">
-				<h2 class="section-heading text-uppercase">Contact</h2>
-				<h3 class="section-subheading text-muted"></h3>
-			</div>
-			
-			
-			<div class="row">
-				<div class="col">
-					<div class="text-center">
-						<h3 class="section-subheading text-muted">Voici les différents moyens pour nous contacter</h3>
-						
-						<div class="col"><p><i class="fas fa-home mr-3"></i>651 Rue Augustin Blanchet, 38690 Colombe</p></div>
-						<div class="col"><p><i class="fas fa-envelope mr-3"></i>chaloin2@wanadoo.fr</p></div>
-						<div class="col"><p><i class="fas fa-phone mr-3"></i>04 76 32 58 18</p></div>
-					</div>
-				</div>
-				
-				<div class="col">
-					<div class="text-center">
-						<div class="row">
-							<div class="col">
-								<div class="map-responsive"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2356.220716600494!2d5.472569770057241!3d45.38847606430339!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478adde73221c20b%3A0x4925dbecf67b77aa!2sChaloin%20fr%C3%A8res!5e0!3m2!1sfr!2sfr!4v1611584207023!5m2!1sfr!2sfr"></iframe>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		
-		</section>
+      <div class="container" data-aos="fade-up">
+	  
+        <div class="row contact-info">
+
+          <div class="col-md-4">
+            <div class="contact-address">
+              <a href="https://www.google.com/maps/place/651+Rue+Augustin+Blanchet,+38690+Colombe/" target="_blank"><i class="ion-ios-location-outline"></i></a>
+              <h3>Adresse</h3>
+              <a href="https://www.google.com/maps/place/651+Rue+Augustin+Blanchet,+38690+Colombe/" target="_blank"><address>651 Rue Augustin Blanchet, 38690 Colombe</address></a>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-phone">
+              <i class="ion-ios-telephone-outline"></i>
+              <h3>Téléphone</h3>
+              <p><a>04 76 32 58 18</a></p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-email">
+              <a href="#" data-contact="Y2hhbG9pbjJAd2FuYWRvby5mcg==" onfocus="this.href = 'mailto:' + atob(this.dataset.contact)"><i class="ion-ios-email-outline"></i></a>
+              <h3>Email</h3>
+              <p><a href="#" data-contact="Y2hhbG9pbjJAd2FuYWRvby5mcg==" onfocus="this.href = 'mailto:' + atob(this.dataset.contact)">chaloin2@wanadoo.fr</a></p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="form">
+          <form action="https://formspree.io/f/xqkgobyb" method="post" role="form" class="php-email-form">
+              <div class="form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Votre Nom"/>
+                <div class="validate"></div>
+              </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="_replyto" id="email" placeholder="Email / Téléphone"/>
+              <div class="validate"></div>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" name="message" rows="5" placeholder="Votre Message"></textarea>
+              <div class="validate"></div>
+            </div>
+            <div class="text-center"><button type="submit">Envoyer</button></div>
+          </form>
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
 
 
 
